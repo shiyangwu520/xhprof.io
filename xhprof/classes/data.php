@@ -192,6 +192,7 @@ class Data
 		
 		foreach($xhprof_data as $call => $data)
 		{
+			$data['mu'] = sprintf('%u',$data['mu']);
 			$sth1->bindValue(':request_id', $request_id, PDO::PARAM_INT);
 			$sth1->bindValue(':ct', $data['ct'], PDO::PARAM_INT);
 			$sth1->bindValue(':wt', $data['wt'], PDO::PARAM_INT);
