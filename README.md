@@ -1,3 +1,6 @@
+fork自：
+http://avnpc.com/pages/profiler-php-performance-online-by-xhprof
+
 To begin with, you need to install the XHProf extension. Refer to the [PHP documentation](http://www.php.net/manual/en/xhprof.setup.php) if you need assistance.
 
 You will need to manually create the database and populate it with the provided scheme. The database scheme is located at `/setup/database.sql`.
